@@ -1,0 +1,40 @@
+.darkHomeCon {
+  max-height: 100vh;
+  max-width: 100vw;
+}
+.lightHomeCon {
+  max-height: 100vh;
+  max-width: 100vw;
+}
+.homeSubCon {
+  height: 85vh;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.darkHomeSubCon {
+  height: 85vh;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.homeImg {
+  width: 12vw;
+}
+.darkHomeH {
+  font-size: 4vw;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.lightHomeH {
+  font-size: 4vw;
+  color: #1e293b;
+  font-weight: bold;
+  margin-top: 10px;
+}

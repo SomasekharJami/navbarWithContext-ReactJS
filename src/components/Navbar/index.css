@@ -1,0 +1,55 @@
+@media screen and (min-width: 768px) {
+  .darkNavCon {
+    height: 15vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+  }
+  .lightNavCon {
+    height: 15vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid #c0cbcd;
+  }
+  .navImg {
+    width: 5vw;
+    margin-left: 2vw;
+  }
+  .themeBton {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  .themeImg {
+    width: 5vw;
+    margin-right: 2vw;
+  }
+  .navList {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw;
+  }
+  .navTab {
+    list-style: none;
+    justify-content: space-evenly;
+  }
+  .lightNavLink {
+    text-decoration: none;
+    outline: none;
+    color: #171f46;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  .darkNavLink {
+    text-decoration: none;
+    outline: none;
+    color: #171f46;
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+  }
+}
